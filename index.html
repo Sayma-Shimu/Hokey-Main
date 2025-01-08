@@ -4,11 +4,21 @@
   <meta charset="UTF-8">
   <title>Hokey-Main</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ------------google font------------ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
 
+  <style>
+    font{
+      font-family: "Manrope", serif;
+    }
+  </style>
+
 </head>
-<body>
+<body class="Manrope">
    <header class="max-w-6xl mx-auto">
     <nav>
     <div class="navbar bg-white">
@@ -77,7 +87,8 @@
    
     <main class="max-w-6xl mx-auto mt-16">
 
-      <!-- -------------banner------------ -->
+      <!-- -------------banner start------------ -->
+      
       <div class="banner">
       <div class="carousel w-full ">
         <div id="slide1" class="carousel-item relative w-full">
@@ -98,7 +109,7 @@
       </div>
       </div>
 
-<!-- -------------------Professional Hockeys Club-------------- -->
+<!-- -------------------Professional Hockeys Club start-------------- -->
      <div class="mt-20">
       <div class="text-center space-y-5">
         <h1 class="text-3xl font-bold">Professional Hockeys Club</h1>
@@ -141,7 +152,7 @@
      </div>
      </div>
 
-     <!-- -----------------------Program Sections--------------------------------- -->
+     <!-- -----------------------Program Sections start--------------------------------- -->
 
      <div class="mt-20">
       <div class="text-center space-y-4">
@@ -149,116 +160,134 @@
         <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
       </div>
 
-      <div class="grid grid-cols-2 grid-rows-2 gap-2 mt-16">
-        <div
-        class="container bg-no-repeat"
-        style="background-image: url(Images/2.png);">
-        <div class="hero-overlay"></div>
-        <div class="hero-content text-neutral-content text-center">
-          <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-            <p class="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-              quasi. In deleniti eaque aut repudiandae et a id nisi.
-            </p>
-            <button class="btn btn-primary">Get Started</button>
-          </div>
-        </div>
-      </div>
-        <div class="col-span-1 row-span-1"><img src="./Images/3.png" alt=""></div>
-        <div class="col-span-2 row-span-2"><img src="./Images/4.png" alt=""></div>
-      </div>
+<div class="mt-12 md:grid grid-cols-2 grid-rows-2 gap-4">
+<!-- -----------card 1----------- -->
+  <div class=" col-span-1 row-span-1 "
+  style="background-image: url(./Images/2.png);">
+  
+    <div class=" text-left p-4">
+      <h4 class=" text-xl font-bold text-white">Junior Program</h4>
+      <p class="text-white"> Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>  enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
+      <button class="bg-[#FF4240] rounded-lg px-5 py-2 ">Register Now!</button>
+    </div>  
+  </div>
 
-     </div>
-  <!-- --------------------------Clients Question--------------------------    -->
+<!-- ----------------card2------------- -->
+  <div class="col-span-1 row-span-1 "
+  style="background-image: url(./Images/3.png);">
+  
+    <div class="text-left p-4 ">
+      <h4 class=" text-xl font-bold text-white">Teenager Program</h4>
+      <p class="text-white"> Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>  enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
+      <button class="bg-[#FF4240] rounded-lg px-5 py-2 ">Register Now!</button>
+    </div>
+   
+  </div>
+
+<!-- -------------card3------------------- -->
+  <div class="col-span-2 row-span-1 "
+  style="background-image: url(./Images/4.png);">
+  
+    <div class="text-left p-4 ">
+      <h4 class=" text-xl font-bold text-white">Professional Program</h4>
+      <p class="text-white"> Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>  enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
+      <button class="bg-[#FF4240] rounded-lg px-5 py-2 ">Register Now!</button>
+    </div>
+   
+  </div>
+
+ </div>
+  <!-- --------------------------Clients Question start--------------------------    -->
    <div class="mt-20">
     <div class="text-center space-y-4 border-dashed">
       <h4 class="text-3xl font-bold">Clients Question</h4>
       <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
     </div>
 
-    <div class="flex mt-16">
-      <div class="container"><img src="./Images/11.png" alt=""></div>
-      <div class="">
-        <div class="shadow-lg">
-          <h5 class="text-2xl font-semibold flex justify-between">Our Equipment <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" />
-          </svg>
-          </h5>
-        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim <br> sagittis turpis in magna.</p>
-        </div>
-        <div class="shadow-lg flex justify-between mt-1 p-2">
-          <p>Hockey Training</p>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-          </svg>
-          
-        </div>
+    <div class="md:flex mt-16">
+      <div class="container md:w-1/2"><img src="./Images/11.png" alt=""></div>
+ 
+    <div class="accordion md:w-1/2">
 
-        <div class="shadow-lg flex justify-between mt-1 p-2">
-          <p>Private Lessons</p>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-          </svg>
-          
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" checked="checked" />
+        <div class="collapse-title text-lg font-bold">Our Equipment</div>
+        <div class="collapse-content">
+          <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
         </div>
-
-        <div class="shadow-lg flex justify-between mt-1 p-2">
-          <p>Ski Touringg</p>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-          </svg>
-          
-        </div>
-
-        <div class="shadow-lg flex justify-between mt-1 p-2">
-          <p>Booking</p>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-          </svg>
-          
-        </div>
-
-        <div class="shadow-lg flex justify-between mt-1 p-2">
-          <p>Pricings</p>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-          </svg>
-          
-        </div>
-        <!-- <div tabindex="5" class="collapse collapse-plus border-base-300 bg-base-200 border">
-          <div class="collapse-title text-xl font-semibold">Hockey Training</div>
-          <div class="collapse-content">
-            <p>tabindex="5" attribute is necessary to make the div focusable</p>
-          </div>
-        </div> -->
       </div>
 
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" />
+        <div class="collapse-title text-xl font-medium">Hockey Training</div>
+       
+      </div>
+
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" />
+        <div class="collapse-title text-xl font-medium">Private Lessons</div>
+        
+      </div>
+
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" />
+        <div class="collapse-title text-xl font-medium">Ski Touring</div>
+        
+      </div>
+
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" />
+        <div class="collapse-title text-xl font-medium">Booking</div>
+       
+      </div>
+
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" />
+        <div class="collapse-title text-xl font-medium">Pricings</div>
+        
+      </div>
+    </div>  
+            
     </div>
 
-    <!-- -------------------Get In Touch-------------------------------------- -->
+      
+      </div>
+
+    
+
+    <!-- -------------------Get In Touch start-------------------------------------- -->
      <div class="mt-20">
     <div class="text-center space-y-4 border-dashed">
       <h4 class="text-3xl font-bold">Get In Touch</h4>
       <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
     </div>
 
-    <div>
-      <div class="w-auto bg-[#FFFFFF] rounded-lg shadow-md">
-        <div class="bg-[#BCED6D1A]">
+    <div class="md:flex gap-4 mt-12">
+      <div class=" bg-[#FFFFFF] w-1/2 rounded-lg shadow-md">
+        <div class="bg-[#BCED6D1A] p-3 space-y-3">
           <img src="./Images/Group 1171275317.png" alt="">
-          
+          <p><span class="text-sm text-gray-400">Phone Number :</span>  <br>
+           <span class="font-bold">(+62) 123-321-543</span> </p>
 
+       </div>
+<!-- ------------------card2----- -->
+        <div class="bg-[#FDDD5F1A] p-3 space-y-3">
+          <img src="./Images/Group 1171275318.png" alt="">
+          <p><span class="text-sm text-gray-400">Email :</span>  <br>
+            <span class="font-bold">hockeys@support.com</span></p>
         </div>
-
-        <div class="bg-[#FDDD5F1A]"></div>
-        <div class="bg-[#629CF31A]"></div>
+   <!-- -----------card3--------------------------------      -->
+        <div class="bg-[#629CF31A] p-3 space-y-3">
+          <img src="./Images/Group 1171275321.png" alt="">
+          <p><span class="text-sm text-gray-400">Location :</span>  <br>
+            <span class="font-bold">152/1 Mohakhali Wireless Gate</span> </p>
+        </div>
 
 
       </div>
 
-      <div class="w-auto">
-        <div class="flex gap-2">
+      <div class="">
+        <div class="md:flex w-1/2 gap-2">
           <div>
             <h3 class="text-lg text-black mb-2">Name</h3>
             <label class="input input-bordered flex items-center gap-2">
@@ -293,7 +322,7 @@
 
         <div class="mt-2">
           <h3 class="text-lg text-black mb-2">Message</h3>
-          <textarea class="textarea w-full bg-[#13131808]" placeholder="Write your message"></textarea>
+          <textarea class="textarea w-full h-32 bg-[#13131808]" placeholder="Write your message"></textarea>
         </div>
 
         <button class="bg-[#FF4240] rounded-lg w-full p-2 text-white mt-2">Send Message</button>
@@ -304,12 +333,27 @@
 
    </div>
 
+   <!-- -------------------social media start------------- -->
+    <div class="bg-slate-200 rounded-lg text-center mt-16" >
+      <h3 class="font-bold text-lg">Social Media</h3>
+
+   <!-- --------Tailwind diye click-able button parina-----------    -->
+
+      
+        <button class="text-black" onclick="window.open('https://x.com')" ><i class="fa-brands fa-twitter"></i></button>
+         <button class="text-black" onclick="window.open('https://web.facebook.com')"><i class="fa-brands fa-facebook"></i></button>
+         <button class="text-black" onclick="window.open('https://www.instagram.com')"><i class="fa-brands fa-instagram"></i></button>
+         <button class="text-black" onclick="window.open('https://github.com')"><i class="fa-brands fa-github"></i></button>                       
+
+    </div>
+  
+
 
      
     </main>
  <!-- ------------------------footer-----------------------    -->
       <footer class="footer max-w-6xl mx-auto mt-24 h-96 bg-[#131318] items-center text-white px-16">
-        <nav>
+        <nav class="">
           <h3 class="footer-title text-3xl font-bold">Get In Touch</h3>
           <p>Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus <br> urna in sit nullam proin. </p>
           <p class="flex gap-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6  ">
@@ -346,7 +390,6 @@
       </footer>
 
     
-
 
    
 
